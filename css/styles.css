@@ -1,0 +1,57 @@
+body {
+  padding-top: 40px;
+}
+
+#home {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  background: #fff;
+  opacity: 0.5;
+  margin: 100px auto;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+  max-width: 374px;
+}
+
+.title h1 {}
+
+#about {
+  padding-top: 30px;
+}
+
+main h3 {
+  margin-top: 30px;
+}
+
+#contact {
+  margin-bottom: 30px;
+}
+
+.offscreen {
+  position: absolute;
+  left: -999em;
+}
+
+.fa {
+  color: #333;
+}
+
+.jumbotron {
+  width: 100%;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 992px) {
+  .jumbotron {
+    position: absolute;
+    top: 25%;
+  }
+}
